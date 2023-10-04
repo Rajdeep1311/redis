@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   redis:
-    image: opstree/redis:1.0
+    image: opstree/redis:7.2
     restart: always
     expose:
       - 6379
